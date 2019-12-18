@@ -1,0 +1,304 @@
+// SMIDGE.SCSS
+// v0.1
+// ===========
+// SIZES
+$smaller: .236em;
+$small: .618em;
+$base: 1em;
+$big: 1.618em;
+$bigger: 3.236em;
+
+// PADDING
+.p-smaller {
+  padding: $smaller;
+}
+
+.p-small {
+  padding: $small;
+}
+
+.p-base {
+  padding: $base;
+}
+
+.p-big {
+  padding: $big;
+}
+
+.p-bigger {
+  padding: $bigger;
+}
+
+// PADDING HORIZONTAL
+.p-h-smaller {
+  padding: 0 $smaller;
+}
+
+.p-h-small {
+  padding: 0 $small;
+}
+
+.p-h-base {
+  padding: 0 $base;
+}
+
+.p-h-big {
+  padding: 0 $big;
+}
+
+.p-h-bigger {
+  padding: 0 $bigger;
+}
+
+// PADDING VERTICAL
+.p-v-smaller {
+  padding: $smaller 0;
+}
+
+.p-v-small {
+  padding: $small 0;
+}
+
+.p-v-base {
+  padding: $base 0;
+}
+
+.p-v-big {
+  padding: $big 0;
+}
+
+.p-v-bigger {
+  padding: $bigger 0;
+}
+
+// PADDING TOP
+.p-t-smaller {
+  padding-top: $smaller;
+}
+
+.p-t-small {
+  padding-top: $small;
+}
+
+.p-t-base {
+  padding-top: $base;
+}
+
+.p-t-big {
+  padding-top: $big;
+}
+
+.p-t-bigger {
+  padding-top: $bigger;
+}
+
+// PADDING RIGHT
+.p-r-smaller {
+  padding-right: $smaller;
+}
+
+.p-r-small {
+  padding-right: $small;
+}
+
+.p-r-base {
+  padding-right: $base;
+}
+
+.p-r-big {
+  padding-right: $big;
+}
+
+.p-r-bigger {
+  padding-right: $bigger;
+}
+
+// PADDING BOTTOM
+.p-b-smaller {
+  padding-bottom: $smaller;
+}
+
+.p-b-small {
+  padding-bottom: $small;
+}
+
+.p-b-base {
+  padding-bottom: $base;
+}
+
+.p-b-big {
+  padding-bottom: $big;
+}
+
+.p-b-bigger {
+  padding-bottom: $bigger;
+}
+
+// PADDING LEFT
+.p-l-smaller {
+  padding-left: $smaller;
+}
+
+.p-l-small {
+  padding-left: $small;
+}
+
+.p-l-base {
+  padding-left: $base;
+}
+
+.p-l-big {
+  padding-left: $big;
+}
+
+.p-l-bigger {
+  padding-left: $bigger;
+}
+
+
+// MARGIN
+.m-smaller {
+  margin: $smaller;
+}
+
+.m-small {
+  margin: $small;
+}
+
+.m-base {
+  margin: $base;
+}
+
+.m-big {
+  margin: $big;
+}
+
+.m-bigger {
+  margin: $bigger;
+}
+
+// MARGIN HORIZONTAL
+.m-h-smaller {
+  margin: 0 $smaller;
+}
+
+.m-h-small {
+  margin: 0 $small;
+}
+
+.m-h-base {
+  margin: 0 $base;
+}
+
+.m-h-big {
+  margin: 0 $big;
+}
+
+.m-h-bigger {
+  margin: 0 $bigger;
+}
+
+// MARGIN VERTICAL
+.m-v-smaller {
+  margin: $smaller 0;
+}
+
+.m-v-small {
+  margin: $small 0;
+}
+
+.m-v-base {
+  margin: $base 0;
+}
+
+.m-v-big {
+  margin: $big 0;
+}
+
+.m-v-bigger {
+  margin: $bigger 0;
+}
+
+// MARGIN TOP
+.m-t-smaller {
+  margin-top: $smaller;
+}
+
+.m-t-small {
+  margin-top: $small;
+}
+
+.m-t-base {
+  margin-top: $base;
+}
+
+.m-t-big {
+  margin-top: $big;
+}
+
+.m-t-bigger {
+  margin-top: $bigger;
+}
+
+// MARGIN RIGHT
+.m-r-smaller {
+  margin-right: $smaller;
+}
+
+.m-r-small {
+  margin-right: $small;
+}
+
+.m-r-base {
+  margin-right: $base;
+}
+
+.m-r-big {
+  margin-right: $big;
+}
+
+.m-r-bigger {
+  margin-right: $bigger;
+}
+
+// MARGIN BOTTOM
+.m-b-smaller {
+  margin-bottom: $smaller;
+}
+
+.m-b-small {
+  margin-bottom: $small;
+}
+
+.m-b-base {
+  margin-bottom: $base;
+}
+
+.m-b-big {
+  margin-bottom: $big;
+}
+
+.m-b-bigger {
+  margin-bottom: $bigger;
+}
+
+// MARGIN LEFT
+.m-l-smaller {
+  margin-left: $smaller;
+}
+
+.m-l-small {
+  margin-left: $small;
+}
+
+.m-l-base {
+  margin-left: $base;
+}
+
+.m-l-big {
+  margin-left: $big;
+}
+
+.m-l-bigger {
+  margin-left: $bigger;
+}

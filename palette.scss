@@ -1,0 +1,135 @@
+// PALETTE.SCSS
+// v0.1
+// =============
+// COLOR PALETTE
+$red: #f00;
+$orange: #ffa500;
+$yellow: #ff0;
+$green: #008000;
+$blue: #00f;
+$indigo: #4b0082;
+$violet: #ee82ee;
+
+$ultraviolet: #f0f;
+
+// TINT PALETTE
+$black: #000;
+$white: #fff;
+
+// GRAYSCALE PALETTE 
+$grayscale-90: #a1a1a1;
+$grayscale-80: #a6a6a6;
+$grayscale-70: #b1b1b1;
+$grayscale-60: #b6b6b6;
+$grayscale-50: #c1c1c1;
+$grayscale-40: #c6c6c6;
+$grayscale-30: #d1d1d1;
+$grayscale-20: #d6d6d6;
+$grayscale-10: #e1e1e1;
+
+// OPACITY
+$alpha-90: .9;
+$alpha-80: .8;
+$alpha-70: .7;
+$alpha-60: .6;
+$alpha-50: .5;
+$alpha-40: .4;
+$alpha-30: .3;
+$alpha-20: .2;
+$alpha-10: .1;
+
+// ELEMENTS
+$link: $blue;
+$link-active: $red;
+$link-hover: $indigo;
+$link-visited: $blue;
+
+// ELEMENTS
+body {
+  background: $white;
+  color: $black;
+}
+
+.palette {
+  a {
+    color: $link;
+
+    :active,
+    :focus {
+      color: $link-active;
+    }
+
+    :hover {
+      color: $link-hover;
+    }
+
+    :visited {
+      color: $link-visited;
+    }
+  }
+
+  // BACKGROUND CLASSES
+  .bg-red {background: $red;}
+  .bg-orange {background: $orange;}
+  .bg-yellow {background: $yellow;}
+  .bg-green {background: $green;}
+  .bg-blue {background: $blue;}
+  .bg-indigo {background: $indigo;}
+  .bg-violet {background: $violet;}
+
+  .bg-ultraviolet {background: $ultraviolet;}
+
+  .bg-black {background: $black;}
+  .bg-white {background: $white;}
+
+  .bg-gs-90 {background: $grayscale-90;}
+  .bg-gs-80 {background: $grayscale-80;}
+  .bg-gs-70 {background: $grayscale-70;}
+  .bg-gs-60 {background: $grayscale-60;}
+  .bg-gs-50 {background: $grayscale-50;}
+  .bg-gs-40 {background: $grayscale-40;}
+  .bg-gs-30 {background: $grayscale-30;}
+  .bg-gs-20 {background: $grayscale-20;}
+  .bg-gs-10 {background: $grayscale-10;}
+
+  // TEXT CLASSES
+  .txt-red {color: $red;}
+  .txt-orange {color: $orange;}
+  .txt-yellow {color: $yellow;}
+  .txt-green {color: $green;}
+  .txt-blue {color: $blue;}
+  .txt-indigo {color: $indigo;}
+  .txt-violet {color: $violet;}
+
+  .txt-ultraviolet {color: $ultraviolet;}
+
+  .txt-black {color: $black;}
+  .txt-white {color: $white;}
+
+  .txt-gs-90 {color: $grayscale-90;}
+  .txt-gs-80 {color: $grayscale-80;}
+  .txt-gs-70 {color: $grayscale-70;}
+  .txt-gs-60 {color: $grayscale-60;}
+  .txt-gs-50 {color: $grayscale-50;}
+  .txt-gs-40 {color: $grayscale-40;}
+  .txt-gs-30 {color: $grayscale-30;}
+  .txt-gs-20 {color: $grayscale-20;}
+  .txt-gs-10 {color: $grayscale-10;}
+
+  // OPACITY
+  .alpha-90 {opacity: $alpha-90;}
+  .alpha-80 {opacity: $alpha-80;}
+  .alpha-70 {opacity: $alpha-70;}
+  .alpha-60 {opacity: $alpha-60;}
+  .alpha-50 {opacity: $alpha-50;}
+  .alpha-40 {opacity: $alpha-40;}
+  .alpha-30 {opacity: $alpha-30;}
+  .alpha-20 {opacity: $alpha-20;}
+  .alpha-10 {opacity: $alpha-10;}
+
+  // MISC. CLASSES
+  .highlight {
+    background: $ultraviolet;
+    color: $black;
+  }
+}

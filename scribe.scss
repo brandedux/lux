@@ -1,0 +1,148 @@
+// SCRIBE.SCSS
+// v0.1
+// ✨by Jeff Davis
+// ===============
+// SIZES
+$base: 1rem;
+
+$smallest: .05em;
+$smaller: .382em; //.236em;
+$small: .618em;
+
+$big: 1.618em;
+$bigger: 3.82em;//3.236em;
+$biggest: 5em;
+
+.scribe {
+  body {
+    font-size: $base;
+    line-height: $base;
+  }
+
+  // SIZE
+  .txt-smallest {
+    font-size: $smallest;
+    line-height: $base;
+    margin:0;
+    padding:0;
+  }
+
+  .txt-smaller {
+    font-size: $smaller;
+    line-height: $base;
+    margin:0;
+    padding:0;
+  }
+
+  .txt-small {
+    font-size: $small;
+    line-height: $base;
+    margin:0;
+    padding:0;
+  }
+
+  .txt-base {
+    font-size: $base;
+    line-height: $base;
+    margin:0;
+    padding:0;
+  }
+
+  .txt-big {
+    font-size: $big;
+    line-height: $big;
+    margin:0;
+    padding:0;
+  }
+
+  .txt-bigger {
+    font-size: $bigger;
+    line-height: $big;
+    margin:0;
+    padding:0;
+  }
+
+  .txt-biggest {
+    font-size: $biggest;
+    line-height: $big;
+    margin:0;
+    padding:0;
+  }
+
+  // WEIGHT
+  .txt-100 {
+    font-weight: 100;
+  }
+
+  .txt-200 {
+    font-weight: 200;
+  }
+
+  .txt-300 {
+    font-weight: 300;
+  }
+
+  .txt-400 {
+    font-weight: 400;
+  }
+
+  .txt-500 {
+    font-weight: 500;
+  }
+  .txt-600 {
+    font-weight: 600;
+  }
+
+  .txt-700 {
+    font-weight: 700;
+  }
+
+  .txt-800 {
+    font-weight: 800;
+  }
+
+  .txt-900 {
+    font-weight: 900;
+  }
+
+  // ALTERNATES
+  .txt-bold {
+    font-weight: bold;
+  }
+
+  .txt-bolder {
+    font-weight: bolder;
+  }
+
+  .txt-fixed-width {
+    font-family: 'Courier New', Courier, monospace !important;
+  }
+
+  .txt-sub,
+  .txt-sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+  }
+
+  .txt-sup {
+    top: -.5em
+  }
+
+  .txt-sub {
+    bottom: -.25em
+  }
+
+  .txt-italic {
+    font-style: italic;
+  }
+
+  .txt-caps {
+    text-transform: uppercase;
+  }
+
+  .txt-small-caps {
+    font-variant: small-caps;
+  }
+}
