@@ -4,9 +4,9 @@ Simply download it and import the files from your CSS library.<br />
 Download or clone the code.<br /> 
 ```git clone https://github.com/brandedux/lux.git```<br />
 <br />
-+ Palette<br />
-+ Scribe<br />
-+ Smidge<br />
++ [Palette](https://brandedux.github.io/palette)<br />
++ [Scribe](https://brandedux.github.io/scribe)<br />
++ [Smidge](https://brandedux.github.io/smidge)<br />
 
 <hr />
 
@@ -16,8 +16,6 @@ Download or clone the code.<br />
 <img src="palette-example.png" />
 
 ## Getting started
-Download or clone the code.<br /> 
-```git clone https://github.com/brandedux/palette.git```
 
 **Import Palette:**<br /> 
 Import palette.scss into your app.scss or primary file.<br /> 
@@ -79,8 +77,6 @@ Nested classes should be used like:<br />
 <img src="scribe-example.png" />
 
 ## Getting started
-Download or clone the code.<br /> 
-```git clone https://github.com/brandedux/scribe.git```
 
 **Import Scribe:**<br /> 
 Import scribe.scss into your app.scss or primary file.<br /> 
@@ -134,8 +130,6 @@ Nested classes should be used like:<br />
 👌Smidge is margin & padding classes
 
 ## Getting started
-Download or clone the code.<br /> 
-```git clone https://github.com/brandedux/smidge.git```
 
 **Import Smidge:**<br /> 
 Import smidge.scss into your app.scss or primary file.<br /> 
